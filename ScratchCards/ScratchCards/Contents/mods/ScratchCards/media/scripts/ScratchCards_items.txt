@@ -1,0 +1,27 @@
+module ScratchCards
+{
+  imports
+  {
+    Base
+  }
+
+  item ScratchCardRaw
+  {
+    DisplayCategory = Junk,
+		Weight =	0.1,
+		Type =	Normal,
+		DisplayName	=	Scratch Card,
+		Icon =	ScratchCard,
+    WorldStaticModel = ScratchCardRaw_ground,
+  }
+  
+  item ScratchCardScratched
+  {
+    DisplayCategory = Junk,
+		Weight =	0.1,
+		Type =	Normal,
+		DisplayName	= Scratched Scratch Card,
+		Icon =	ScratchCardScratched,
+    WorldStaticModel = ScratchCardScratched_ground,
+  }
+}

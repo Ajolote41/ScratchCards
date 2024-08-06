@@ -1,0 +1,17 @@
+module ScratchCards
+{
+  imports
+  {
+    Base
+  }
+
+  recipe Scratch the Card
+  {
+    ScratchCardRaw,
+
+    Result:ScratchCardScratched,
+    Time:20,
+    Category:Carpentry,
+    OnCreate:Recipe.OnCreate.GetRandomReward,
+  }
+}

@@ -1,0 +1,21 @@
+module ScratchCards
+{
+  imports
+  {
+    Base
+  }
+
+  model ScratchCardRaw_ground
+  {
+    mesh = WorldItems/SmallSheetMetal,
+    texture = WorldItems/ScratchCardRaw_ground,
+    scale = 0.2,
+  }
+
+  model ScratchCardScratched_ground
+  {
+    mesh = WorldItems/SmallSheetMetal,
+    texture = WorldItems/ScratchCardScratched_ground,
+    scale = 0.2,
+  }
+}

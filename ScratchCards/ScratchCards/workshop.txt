@@ -1,0 +1,3 @@
+version=1
+title=Scratch Cards
+description=Adds Scratch Cards to the game with its buffs and debuffs effects.
